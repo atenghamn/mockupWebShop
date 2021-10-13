@@ -49,6 +49,9 @@
 .ml-7, .mx-7{ margin-left: var(--distance-7);}
 .mr-8, .mx-8{ margin-right: var(--distance-8);}
 .ml-8, .mx-8{ margin-left: var(--distance-8);}
+.mr-16, .mx-16{ margin-right: var(--distance-16);}
+.ml-16, .mx-16{ margin-left: var(--distance-16);}
+
 
 /******************************
 ******** Positions ************
