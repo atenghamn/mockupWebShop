@@ -99,6 +99,23 @@ html {
     font-size: 62.5%; /* 1rem = 10px */
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h5, .h6, h1, h2, h3, h4, h5, h6 { 
+    font-family: "Roboto", "Open Sans", sans-serif; 
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+.h1, h1 {
+    font-size: var(--distance-13);
+}
 
 /*************************************
 ********* Text Colors ****************
@@ -107,6 +124,7 @@ html {
 .text-primary-dark{ color:var(--color-primary-dark);}
 .text-secondary{ color:var(--color-secondary); }
 .text-secondary-dark{ color:var(--color-secondary-dark);}
+.text-color-white{ color: var(--color-white);}
 .text-color-light{ color:var(--color-light); }
 .text-color-light-grey{ color:var(--color-light-grey);}
 .text-dark-filler{ color:var(--color-dark-filler);}

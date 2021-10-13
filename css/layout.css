@@ -34,6 +34,10 @@
 .mt-15, .my-15{ margin-top: var(--distance-15); } /* 4rem */
 .mb-15, .my-15{ margin-bottom: var(--distance-15);}
 
+.mr-2, .mx-2{ margin-right: var(--distance-2);}
+.ml-2, .mx-2{ margin-left: var(---distance-2);}
+.mr-3, .mx-3{ margin-right: var(--distance-3) ;}
+.ml-3, .mx-3{ margin-left: var(--distance-3); }
 .mr-4, .mx-4{ margin-right: var(--distance-4);}
 .ml-4, .mx-4{ margin-left: var(--distance-4);}
 .mr-6, .mx-6{ margin-right: var(--distance-6);}
