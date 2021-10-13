@@ -70,8 +70,8 @@
     ********Borders***********
     *************************/
     --border-xs-white: .1rem solid var(--color-white);
-    --border-xs: .1rem solid var(--color-light);
-    --border-sm: .2rem solid var(--color-light);
+    --border-xs: .1rem solid var(--color-light-grey);
+    --border-sm: .2rem solid var(--color-light-grey);
     --border-lg: .4rem solid var(--color-white);
 
     --border-radius-sm: .25rem;
@@ -155,4 +155,5 @@ body {
 .border-color-secondary {border-color: var(--color-secondary);}
 .border-color-dark-secondary{ border-color: var(--color-secondary-dark);}
 .border-color-white { border-color: var(--color-white);}
+.border-coolor-light-grey { border-color: var(--color-light-grey);}
 .border-color-tranparent{ border-color: var(--color-transparent);}
