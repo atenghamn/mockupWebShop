@@ -21,7 +21,7 @@
 <body>
     <!-- Top Bar-->
     <header>
-        <nav class="d-flex max width justify-content-between align-items-center mx-auto p-6 bg-primary"> <!--Osäker på om färgen ska vara här?-->
+        <nav class="d-flex max width justify-content-between align-items-center mx-auto p-6 bg-primary"> 
             <!-- Left button -->
             <div class="text-size-sm border-small-white text-color-light ml-4">
                 <div class="d-flex mb-3">
@@ -30,7 +30,7 @@
                     <i class="fas fa-sort-down mb-4 mr-4 ml-3"></i>
                 </div>
             </div>
-
+            <!--Contoner for the two field to the right -->
             <div class="d-flex text-size-sm text-color-light mr-4">
                 <!-- Tel Contact -->
                 <div class="d-flex ">
@@ -52,6 +52,52 @@
 
         </nav>
     </header>
+
+    <!-- Searchbar & Navigation -->
+    <section class="d-flex align-items-center justify-content-between mt-6 p-6">
+        
+        <!-- Logo left side -->
+        <div class="d-flex">
+            <img class="logo-small-width" src="images/logo/logo.png" alt="logo">
+        </div>
+        
+        <!-- Searchbar -->
+        <form action="" class="d-flex">
+            <div class="position-relative mb-2">
+                <button class="position-absolute fas fa-search icon-form-control"></button>
+                <input type="text" placeholder="Search..." class="form-control border-sm border-radius lh-md p-4 min-width-xxl">
+            </div>
+        </form>            
     
+
+       <!-- 3 Icons right side -->
+       <div class="d-flex justify-content-between p-"> 
+        <div class="d-flex flex-column align-items-center">
+            <i class="fas fa-heart position-relative text-size-xxl"></i>
+            <p class=" text-size-xxs bg-secondary p-2 text-color-light icon-sqr icon-badge-3 position-absolute">3</p>
+            <p class="text-uppercase text-size-xxs"> Favorites </p>
+            
+        </div>
+
+        <div class="d-flex flex-column align-items-center ml-8">
+            <i class="fas fa-shopping-cart position-relative text-size-xxl"></i>
+            <p class=" text-size-xxs bg-secondary p-2 text-color-light icon-sqr icon-badge-2 position-absolute">4</p>
+            <p class="text-uppercase text-size-xxs"> $5456.40 </p>
+            
+        </div>
+
+        <div class="d-flex flex-column align-items-center ml-8 mr-8">
+            <i class="fas fa-heart position-relative text-size-xxl"></i>
+            <p class=" text-size-xxs bg-secondary p-2 text-color-light icon-sqr icon-badge-1 position-absolute">0</p>
+            <p class="text-uppercase text-size-xxs"> $0.00 </p>
+            
+        </div>
+       </div>
+      
+
+
+    </section>
+
+
 </body>
 </html>

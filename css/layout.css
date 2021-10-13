@@ -34,6 +34,9 @@
 .mt-15, .my-15{ margin-top: var(--distance-15); } /* 4rem */
 .mb-15, .my-15{ margin-bottom: var(--distance-15);}
 
+
+.mr-0, .mx-0{ margin-right: var(--distance-0); }
+.ml-0, .mx-0{ margin-left: var(--distance-0); }
 .mr-2, .mx-2{ margin-right: var(--distance-2);}
 .ml-2, .mx-2{ margin-left: var(---distance-2);}
 .mr-3, .mx-3{ margin-right: var(--distance-3) ;}
@@ -42,6 +45,10 @@
 .ml-4, .mx-4{ margin-left: var(--distance-4);}
 .mr-6, .mx-6{ margin-right: var(--distance-6);}
 .ml-6, .mx-6{ margin-left: var(--distance-6);}
+.mr-7, .mx-7{ margin-right: var(--distance-7);}
+.ml-7, .mx-7{ margin-left: var(--distance-7);}
+.mr-8, .mx-8{ margin-right: var(--distance-8);}
+.ml-8, .mx-8{ margin-left: var(--distance-8);}
 
 /******************************
 ******** Positions ************
@@ -54,6 +61,8 @@
 /******************************
 ******** Paddings *************
 ******************************/
+.p-2{ padding: var(--distance-2); }
+.p-3{ padding: var(--distance-3); }
 .p-4{ padding: var(--distance-4); }
 .p-5{ padding: var(--distance-5); }
 .p-6{ padding: var(--distance-6); }
@@ -96,6 +105,7 @@
 ********* Borders **************
 *******************************/
 .border-radius {border-radius: var(--border-radius-sm);}
+.border-square {border-radius: 0; border-width: var(--distance-1); border-color: var(--color-light);}
 
 .border-small-white{ border: var(--border-xs-white);}
 
@@ -114,3 +124,45 @@
 *********************************/
 .shadow-sm { box-shadow: var(--shadow-small-light);}
 .shadow-lg { box-shadow: var(--shadow-large-light)}
+
+/*********************************
+*********** Images ***************
+*********************************/
+.logo-small-width{ max-width: 13rem;}
+
+
+
+/*********************************
+***** Badges and Buttons *********
+*********************************/
+.icon-badge-1{
+    top: 93px;
+    right: 18px;
+    padding: var(--distance-1) var(--distance-3);
+}
+
+.icon-badge-2{
+    top: 93px;
+    right: 70px;
+    padding: var(--distance-1) var(--distance-3);
+}
+
+.icon-badge-3{
+    top: 93px;
+    right: 138px;
+    padding: var(--distance-1) var(--distance-3);
+}
+
+.icon-sqr {
+    padding-top: var(--distance-1);
+    padding-bottom: var(--distance-1);
+    padding-left: var(--distance-2);
+    padding-right: var(--distance-2);
+}
+
+.icon-form-control{
+    left: -40px;
+    padding: 11px;
+    border-color: transparent;
+}
+
