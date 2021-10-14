@@ -4,6 +4,8 @@
 .max-width { max-width: 192rem; }
 .max-width-50{ max-width: 50%; }
 .max-width-card{ max-width: 85%;}
+.max-width-card-fs {max-width: 28%;}
+
 
 /******************************
 ********* Margins *************
@@ -170,6 +172,7 @@
     padding: 11px;
     border-color: transparent;
 }
+
 
 
 
