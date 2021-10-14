@@ -13,7 +13,7 @@ This is a schoolproject, not a commercial product.
 - [x] Create the products
 - [x] Make the productcards in  a row 
 - [x] Make the blue squares green circles
-- [ ] Make a dropdownmenu
+- [x] Make a dropdownmenu
 - [ ] Social media icons
 - [ ] Be sure to check so that all that should be clickable is clickable 
 - [ ] Make it responsive 
