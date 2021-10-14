@@ -144,19 +144,19 @@
 *********************************/
 .icon-badge-1{
     top: 93px;
-    right: 18px;
+    right: 28px;
     padding: var(--distance-1) var(--distance-3);
 }
 
 .icon-badge-2{
     top: 93px;
-    right: 70px;
+    right: 80px;
     padding: var(--distance-1) var(--distance-3);
 }
 
 .icon-badge-3{
     top: 93px;
-    right: 138px;
+    right: 148px;
     padding: var(--distance-1) var(--distance-3);
 }
 
@@ -181,3 +181,4 @@
 *********** MISC *******************************
 ***********************************************/
 .bar-height { height: .1rem;}
+.circle { border-radius: 100%;}

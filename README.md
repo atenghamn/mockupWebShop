@@ -12,7 +12,7 @@ This is a schoolproject, not a commercial product.
 - [x] Create the side navbar
 - [x] Create the products
 - [x] Make the productcards in  a row 
-- [ ] Make the blue squares green circles
+- [x] Make the blue squares green circles
 - [ ] Make a dropdownmenu
 - [ ] Social media icons
 - [ ] Be sure to check so that all that should be clickable is clickable 

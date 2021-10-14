@@ -144,6 +144,7 @@ body {
 .bg-white, .btn-white{ background-color: var(--color-white);}
 .bg-light, .btn-ligth{ background-color: var(--color-light);}
 .bg-light-grey, .btn-light-grey{ background-color: var(--color-light-grey);}
+.bg-nice-price, .btn-nice-price{ background-color: var(--color-niceprice);}
 .bg-dark-filler, .btn-dark-filer{ background-color: var(--color-dark-filler);}
 .bg-transparent, .btn-transparent{ background-color: var(--color-transparent);}
 .bg-dark-transparent, .btn-dark-transparent{ background-color: var(--color-dark-transparent);}
