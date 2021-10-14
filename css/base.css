@@ -5,6 +5,7 @@
     *********************/
     --color-primary:#343A40;
     --color-primary-dark: #22262a;
+    --color-primary-light: #818c98;
     --color-secondary: #007BFB;
     --color-secondary-dark: #0056b3;
     --color-white: #fff;
@@ -122,6 +123,7 @@ body {
 *************************************/
 .text-primary{ color:var(--color-primary);}
 .text-primary-dark{ color:var(--color-primary-dark);}
+.text-primary-light{ color:var(--color-primary-light);}
 .text-secondary{ color:var(--color-secondary); }
 .text-secondary-dark{ color:var(--color-secondary-dark);}
 .text-color-white{ color: var(--color-white);}

@@ -3,6 +3,7 @@
 ******************************/
 .max-width { max-width: 192rem; }
 .max-width-50{ max-width: 50%; }
+.max-width-card{ max-width: 85%;}
 
 /******************************
 ********* Margins *************
@@ -129,9 +130,10 @@
 .shadow-lg { box-shadow: var(--shadow-large-light)}
 
 /*********************************
-*********** Images ***************
+*********** Images **************
 *********************************/
 .logo-small-width{ max-width: 13rem;}
+.product-thumbnail { max-width: 15rem;}
 
 
 
@@ -167,6 +169,11 @@
     left: -40px;
     padding: 11px;
     border-color: transparent;
+}
+
+.heart-badge {
+    left: 152rem;
+    top: 2rem;
 }
 
 
