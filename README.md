@@ -16,7 +16,7 @@ This is a schoolproject, not a commercial product.
 - [x] Make a dropdownmenu
 - [x] Social media icons
 - [x] Be sure to check so that all that should be clickable is clickable 
-- [ ] Make it responsive 
+- [x] Make it responsive 
 ---
 ---
 ---
