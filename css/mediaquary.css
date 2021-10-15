@@ -1,0 +1,73 @@
+/*********************************************
+************** at 1920px *********************
+*********************************************/
+@media screen and (max-width: 120em) {
+    .menu-width{margin-left: 6rem;}
+    .f-width{max-width: 27%;}
+   
+    
+    .icon-badge{
+        margin-left: 20px;
+        margin-top: -5px;
+        padding: var(--distance-1) var(--distance-3)
+        
+    }
+    
+    .icon-badge{
+        margin-left: 20px;
+        margin-top: -5px;
+        padding: var(--distance-1) var(--distance-3)
+    }
+}
+
+/*********************************************
+************** at 1700px *********************
+*********************************************/
+@media only screen and (max-width: 106.25em) {
+   .f-width{ max-width: 28%; margin-left: auto; margin-right: auto;}
+   .menu-width{ min-width: 25%; margin-left:3rem;}
+   
+}
+
+/*********************************************
+************** at 1500px *********************
+*********************************************/
+@media only screen and (max-width: 93.75em) {
+    .f-width{ max-width: 45%; margin-left: auto; margin-right: auto;}
+    
+ }
+
+ /*********************************************
+************** at 1000px *********************
+*********************************************/
+@media only screen and (max-width: 62.5em) {
+    .f-width{ max-width: 75%; margin-left: auto; margin-right: auto;}
+    .menu-width{ min-width: 25%; margin-left:3rem;}
+    
+ }
+
+ /*********************************************
+************** at 900px *********************
+*********************************************/
+@media only screen and (max-width: 56.25em) {
+    .f-width {flex-direction: column; min-width: 90%; max-width: 90%; margin-right: auto; margin-left:auto;}
+    .menu-width{ min-width: 90%; max-width: 90%; margin-right: auto; margin-left:auto;} 
+    .sms-selector {flex-direction: column; align-items: center;}
+}
+ 
+/*********************************************
+************** at 700px *********************
+*********************************************/
+@media only screen and (max-width: 43.75em) {
+    .top-selector { flex-direction: column; flex-wrap: wrap; }
+    .nav-selector { flex-direction: column;  }
+    .sm-margin {margin: 4px;}
+  
+
+}
+
+/*********************************************
+************** at 350px *********************
+*********************************************/
+
+/* Gör textstorleken mindre */

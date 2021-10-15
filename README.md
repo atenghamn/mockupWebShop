@@ -15,7 +15,7 @@ This is a schoolproject, not a commercial product.
 - [x] Make the blue squares green circles
 - [x] Make a dropdownmenu
 - [x] Social media icons
-- [ ] Be sure to check so that all that should be clickable is clickable 
+- [x] Be sure to check so that all that should be clickable is clickable 
 - [ ] Make it responsive 
 ---
 ---

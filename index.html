@@ -21,10 +21,10 @@
 <body>
     <!-- Top Bar-->
     <header>
-        <nav class="d-flex max width justify-content-between align-items-center mx-auto p-6 bg-primary"> 
+        <nav class="d-flex max width justify-content-between align-items-center mx-auto p-6 bg-primary top-selector"> 
             <!-- Left button -->
             <div class="dropdown">
-            <button class="drop-btn bg-transparent text-size-sm border-small-white text-color-light ml-4">
+            <button class="drop-btn bg-transparent text-size-sm border-small-white text-color-light ml-4 sm-margin">
                 <div class="d-flex mb-3">
                     <i class="fas fa-user ml-4 mt-4"></i>
                     <p class="mt-4 ml-3">Jonas</p>
@@ -38,7 +38,7 @@
         </div>
     </div>
             <!--Contoner for the two fields in the middle -->
-            <div class="d-flex text-size-sm text-color-light mr-4">
+            <div class="d-flex text-size-sm text-color-light mr-4 sm-margin">
                 <!-- Tel Contact -->
                 <div class="d-flex ">
                     <i class="fas fa-phone mr-2"></i>
@@ -53,7 +53,7 @@
             </div>
 
             <!-- The Social Media Icons -->
-            <div>
+            <div sm-margin>
                 
                 
                 <a href="https://www.facebook.com"class="fab fa-facebook-square text-color-light-grey text-size-xxl text-decoration-none"></a>
@@ -71,16 +71,16 @@
     </header>
 
     <!-- Searchbar & Navigation -->
-    <section class="d-flex align-items-center justify-content-between mt-6 p-6">
+    <section class="d-flex align-items-center justify-content-between mt-6 p-6 nav-selector">
         
         <!-- Logo left side -->
-        <div>
+        <div class="sm-margin">
             <img class="logo-small-width" src="images/logo/logo.png" alt="logo">
         </div>
 
         
         <!-- Searchbar -->
-        <form action="" class="d-flex flex-grow mr-8 ml-8">
+        <form action="" class="d-flex flex-grow mr-8 ml-8 sm-margin">
             <div class="d-flex flex-grow mb-2">
                 <button class=" fas fa-search icon-form-control"></button>
                 <input class ="d-flex flex-grow border-sm" type="text" placeholder="Search..." class="form-control border-sm border-radius lh-md p-4 min-width-xxl">
@@ -89,24 +89,24 @@
     
 
        <!-- 3 Icons right side -->
-       <div class="d-flex justify-content-between mb-2 hoverable"> 
+       <div class="d-flex justify-content-between mb-2 hoverable sm-margin sm-spacing"> 
         <div class="d-flex flex-column align-items-center">
-            <i class="fas fa-heart position-relative text-size-xxl"></i>
-            <p class=" text-size-xxs bg-nice-price circle p-2 text-color-light position-absolute icon-badge-3">3</p>
+            <i class="fas fa-heart text-size-xxl position-relative"></i>
+            <p class=" text-size-xxs bg-nice-price circle p-2 text-color-light position-absolute icon icon-badge">3</p>
             <p class="text-uppercase text-size-xxs"> Favorites </p>
             
         </div>
 
-        <div class="d-flex flex-column align-items-center ml-8 hoverable">
-            <i class="fas fa-shopping-cart position-relative text-size-xxl"></i>
-            <p class=" text-size-xxs bg-nice-price circle p-2 text-color-light icon-badge-2 position-absolute">4</p>
+        <div class="d-flex flex-column align-items-center ml-8">
+            <i class="fas fa-shopping-cart text-size-xxl position-relative"></i>
+            <p class=" text-size-xxs bg-nice-price circle p-2 text-color-light position-absolute icon-badge">4</p>
             <p class="text-uppercase text-size-xxs"> $5456.40 </p>
             
         </div>
 
-        <div class="d-flex flex-column align-items-center ml-8 mr-8 hoverable">
-            <i class="fas fa-file-invoice-dollar position-relative text-size-xxl"></i>
-            <p class=" text-size-xxs bg-nice-price circle p-2 text-color-light icon-badge-1 position-absolute">0</p>
+        <div class="d-flex flex-column align-items-center ml-8 mr-8">
+            <i class="fas fa-file-invoice-dollar text-size-xxl position-relative"></i>
+            <p class=" text-size-xxs bg-nice-price circle p-2 text-color-light position-absolute icon-badge">0</p>
             <p class="text-uppercase text-size-xxs"> $0.00 </p>
             
         </div>
@@ -120,10 +120,10 @@
     <div class="bar-height bg-light-grey mt-6"></div>
     
     <!-- Side Menu & Product Cards -->
-    <section class="d-flex">
+    <section class="d-flex sms-selector">
          <!-- Side Menu-->
-        <div>
-            <ul class="border-sm mt-12 ml-8">
+        <div class="menu-min-width menu-width">
+            <ul class="border-sm mt-12">
                 <li class="d-flex  align-items-center p-6 menu">
                     <i class="fas fa-hdd text-secondary"></i>
                     <p class="ml-6">Computers & Accessories</p>
@@ -195,9 +195,9 @@
       
       
         <!-- Product Cards -->
-        <div class="d-flex flex-wrap ">
+        <div class="d-flex flex-wrap">
               <!--Rectangle with grey borders -->
-            <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+            <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                 
             <div class="d-flex">              
                 <!-- Image -->
@@ -236,7 +236,7 @@
             </div>
             </div>
              <!--Rectangle with grey borders -->
-             <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+             <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                 
                 <div class="d-flex">
                     <!-- Image -->
@@ -273,7 +273,7 @@
                 </div>
                 </div>
                 <!--Rectangle with grey borders -->
-             <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs ">
+             <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                 
                 <div class="d-flex">
                     <!-- Image -->
@@ -312,7 +312,7 @@
                 </div>
                 </div>
                  <!--Rectangle with grey borders -->
-            <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+            <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                 
                 <div class="d-flex">
                     <!-- Image -->
@@ -347,7 +347,7 @@
                 </div>
                 </div>
                  <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -382,7 +382,7 @@
                     </div>
                     </div>
                     <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -420,7 +420,7 @@
                     </div>
                     </div>
                             <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -431,7 +431,8 @@
                         <div class="d-flex flex-row-reverse icon-container position-relative hoverable">
                             <i class=" far fa-heart icon position-absolute" ></i>¨
                             <i class= "fas fa-heart position-absolute"></i>
-                        </div>                        <h3 class="mb-4">Smartwatch</h3>
+                        </div>                        
+                        <h3 class="mb-4">Smartwatch</h3>
         
                         <p class="text-primary-light mb-4">Undefined</p>
                         <p class="text-primary-light mb-4">$499.99</p>
@@ -458,7 +459,7 @@
                     </div>
                     </div>
                             <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -496,7 +497,7 @@
                     </div>
                     </div>
                           <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -529,7 +530,7 @@
                     </div>
                     </div>
                     <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -567,7 +568,7 @@
                     </div>
                     </div>
                             <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->
@@ -606,7 +607,7 @@
                     </div>
                     </div>
                             <!--Rectangle with grey borders -->
-                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs">
+                 <div class="d-flex align-items-center border-sm mt-12 ml-16 mr-16 p-6 position-relative max-width-card-fs f-width">
                     
                     <div class="d-flex">
                         <!-- Image -->

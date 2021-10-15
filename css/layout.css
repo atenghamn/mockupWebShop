@@ -5,7 +5,7 @@
 .max-width-50{ max-width: 50%; }
 .max-width-card{ max-width: 85%;}
 .max-width-card-fs {max-width: 28%;}
-
+.menu-min-width{ min-width: 21%;}
 
 /******************************
 ********* Margins *************
@@ -142,22 +142,10 @@
 /*********************************
 ***** Badges and Buttons *********
 *********************************/
-.icon-badge-1{
-    top: 93px;
-    right: 28px;
-    padding: var(--distance-1) var(--distance-3);
-}
-
-.icon-badge-2{
-    top: 93px;
-    right: 80px;
-    padding: var(--distance-1) var(--distance-3);
-}
-
-.icon-badge-3{
-    top: 93px;
-    right: 148px;
-    padding: var(--distance-1) var(--distance-3);
+.icon-badge{
+  margin-left: 20px;
+  margin-top: -5px;
+  padding: var(--distance-1) var(--distance-3);   
 }
 
 .icon-sqr {
