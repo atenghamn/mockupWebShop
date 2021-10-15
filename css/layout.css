@@ -179,6 +179,17 @@
 .menu{cursor: pointer;}
 .menu:hover{ background-color: var(--color-primary-light); }
 
+.icon-container i:nth-child(2) { display: none; }
+
+.icon-container:hover i:nth-child(1) { display: none;}
+
+.icon-container:hover i:nth-child(2) { display: block;}
+
+.icon-container-bottom i:nth-child(2) { display: none; }
+
+.icon-container-bottom:hover i:nth-child(1) { display: none;}
+
+.icon-container-bottom:hover i:nth-child(2) { display: block;}
 
 
 
