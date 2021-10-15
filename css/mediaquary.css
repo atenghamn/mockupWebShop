@@ -62,6 +62,7 @@
     .top-selector { flex-direction: column; flex-wrap: wrap; }
     .nav-selector { flex-direction: column;  }
     .sm-margin {margin: 4px;}
+   
   
 
 }
@@ -69,5 +70,10 @@
 /*********************************************
 ************** at 350px *********************
 *********************************************/
-
-/* Gör textstorleken mindre */
+@media only screen and (max-width: 21.875em) {
+    .contact-info{ 
+        flex-direction: column;
+        align-content: center;
+    }
+    .sms-center { justify-content: center;}
+}
