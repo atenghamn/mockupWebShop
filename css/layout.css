@@ -173,7 +173,11 @@
     border-color: transparent;
 }
 
-.hoverable{cursor: pointer;};
+.hoverable{cursor: pointer;}
+
+
+.menu{cursor: pointer;}
+.menu:hover{ background-color: var(--color-primary-light); }
 
 
 
